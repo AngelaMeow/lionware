@@ -1,0 +1,172 @@
+[
+  {
+    "Picture": "johanne.jpg",
+    "Name": "Johanne Greenwood",
+    "Job Title": "Engagement Manager",
+    "Responsibilities": "I help ensure that the needs of the customer are correctly prioritized and well understood by the team. I use empirical data from the team performance to forecast a release plan and support our customers to understand likely outcomes and make decisions.",
+    "City": "Nashville",
+    "Professional achievement": "My work in smart cities and energy efficiency was recognized with a vendor rating of #1 in category by Navigant, the European Union Sustainable Energy Award and a Platts Global Energy Award.",
+    "Link": "",
+    "Personal achievement": "Although it was a very sad time, I am glad that I was able to support a friend following the sudden death of her husband."
+  },
+  {
+    "Picture": "carlos.jpg",
+    "Name": "Carlos Fontecha",
+    "Job Title": "Product Owner",
+    "Responsibilities": "Providing vision and direction to the Agile development team and\nstakeholders throughout the project and creating requirements.",
+    "City": "Tegucigalpa",
+    "Professional achievement": "I helped delivered the following project through software product management:",
+    "Link": "http://eco-audits.healthyreefs.org/#!en/home&country=0&year=2016",
+    "Personal achievement": "Professional Fellow, \"A Digital Path to\nEntrepreneurship and Innovation for Latin\nAmerica\", a professional fellowship\nprogram managed by the International\nCenter for Journalists (ICFJ) and funded by\nthe U.S. State Department's Bureau of\nEducational and Cultural Affairs."
+  },
+  {
+    "Picture": "saule.jpg",
+    "Name": "Saul Euceda",
+    "Job Title": "Scrum Master",
+    "Responsibilities": "I make sure the team follow our process, help the team have their best performance, removing impediments, Facilitate meetings, implement process improvements, track metrics to detect issues.",
+    "City": "Tegucigalpa",
+    "Professional achievement": "Successful participating and delivering a huge and critical project for Honduras Elections.",
+    "Link": "",
+    "Personal achievement": "PM Master Degree with honors and PSM Certification"
+  },
+  {
+    "Picture": "gazy.jpg",
+    "Name": "Gazy",
+    "Job Title": "Architect",
+    "Responsibilities": "I ensure that our clients get the tools that are best suited to their needs and that our developers know how to properly use those tools to build the best solution possible.",
+    "City": "Tegucigalpa",
+    "Professional achievement": "I once worked on an early flood warning system.",
+    "Link": "",
+    "Personal achievement": "I was a three-time, inter-high-school mathematics competition winner."
+  },
+  {
+    "Picture": "cesarw.jpg",
+    "Name": "Cesar Welchez",
+    "Job Title": "QA Engineer",
+    "Responsibilities": "as QA we make sure to maintain a desire level of quality in the developer code, by checking every stage of process of creating quality software.",
+    "City": "Tegucigalpa, Honduras.",
+    "Professional achievement": "A great project we did for an ONG in Honduras to help out people finding help when they are having all sort of issues, specially family issues.",
+    "Link": "",
+    "Personal achievement": "I love reforestation voluntary work, I've done quite a few (3-4) so far, and it's always a great experience."
+  },
+  {
+    "Picture": "erick.jpg",
+    "Name": "Erick Daniel Caballero",
+    "Job Title": "Developer",
+    "Responsibilities": "I write software for awesome clients",
+    "City": "Tegucigalpa",
+    "Professional achievement": "Finished a large project that demanded a lot of investigation about concerts, raspberry pi implementation.",
+    "Link": "",
+    "Personal achievement": "Learned to play instruments like piano and guitar"
+  },
+  {
+    "Picture": "ricardo.jpg",
+    "Name": "Ricardo Zelaya",
+    "Job Title": "Software developer",
+    "Responsibilities": "i write code, i read client requirements and with my logical and critical thinking fix any kind of situation or problem. At work and on my live everithing has a solution.",
+    "City": "San pedro sula",
+    "Professional achievement": "I raised the it department on a company on two years, i fixed and renewed al the iT infrastructure and i  raise departments of software developer, database, tehnical support, networking and infrastructure from nothing.",
+    "Link": "",
+    "Personal achievement": "i was the first on all my family having a university degree, and also a master degree, i support them on every situation and needs. also im proud of my daugther"
+  },
+  {
+    "Picture": "cesarb.jpg",
+    "Name": "Cesar Bonilla",
+    "Job Title": "Developer",
+    "Responsibilities": "I write maintainable code, I'm always trying to make it clean & easy to read.",
+    "City": "Tegucigalpa",
+    "Professional achievement": "I was part of the development team who was in charge of creating a \"Student Portal\" for Walden University",
+    "Link": "https://www.waldenu.edu/",
+    "Personal achievement": "I was able to overcome my fear to swing, now I'm taking swimming classes and feeling pretty confident about it."
+  },
+  {
+    "Picture": "ricky.jpg",
+    "Name": "Ricardo Casco",
+    "Job Title": "QA Engineer",
+    "Responsibilities": "Testing features to be sure the client receive a best quality of the product",
+    "City": "Tegucigalpa",
+    "Professional achievement": "Automation testing, solved oriented problem, good communication, team work, work harder",
+    "Link": "",
+    "Personal achievement": "I am volunteer on a NGO for more than 8 years"
+  },
+  {
+    "Picture": "arthur.jpg",
+    "Name": "Arturo Cordova",
+    "Job Title": "Developer",
+    "Responsibilities": "I write code, deploy features and work together with QA and designers to deliver products.",
+    "City": "San Pedro Sula",
+    "Professional achievement": "I think our internal projects are awesome.",
+    "Link": "",
+    "Personal achievement": "My achievements in soccer."
+  },
+  {
+    "Picture": "angela.jpg",
+    "Name": "Angela Velasquez",
+    "Job Title": "UX Designer",
+    "Responsibilities": "I find solutions to UX problems, create awesome designs for clients, and make sure that user has a final great experience.",
+    "City": "Tegucigalpa",
+    "Professional achievement": "I've always been studying and practicing my HTML and CSS knowledge to improve every project's quality in which I've ever worked. This took me some time. Because when I started, I wasn't so good at writing code.",
+    "Link": "",
+    "Personal achievement": "Help to care and find a home to rescued cats. I also helped one baby squirrel and various birds to take them to the veterinary and reincorporate them to their habitat."
+  },
+  {
+    "Picture": "jacob.jpg",
+    "Name": "Jacob Ramirez",
+    "Job Title": "Developer",
+    "Responsibilities": "I write code using TDD methodology, Vuejs and Node.",
+    "City": "Houston, TX, USA",
+    "Professional achievement": "I worked with a team that delivered a well constructed API for one company with more than 1 million of users.",
+    "Link": "",
+    "Personal achievement": "I was part of a team of students that participated on a contest about principles and individual values. We won the first place and we appeared on a popular Honduras newspaper"
+  },
+  {
+    "Picture": "saulm.jpg",
+    "Name": "Saul Antonio Mayorquin Diaz",
+    "Job Title": "Sr Developer",
+    "Responsibilities": "I write code and mentor developers in the road to become Sr Devs.",
+    "City": "Comayagua",
+    "Professional achievement": "Been part of the team that build the tax recolection system of Honduras",
+    "Link": "",
+    "Personal achievement": "Be part of a collective of poets, \"Lienzo Breve\", with whom we publish a poetic atology \"Legion Barahona"
+  },
+  {
+    "Picture": "yamil.jpg",
+    "Name": "Yamil Gonzales",
+    "Job Title": "Design Manager",
+    "Responsibilities": "I manage and develops a team of designers; setting clear goals, managing project loads and allocating designers accordingly, ensuring deadlines are met and setting up team members for overall success.",
+    "City": "Tegucigalpa",
+    "Professional achievement": "Created the first open-data portal in Honduras.",
+    "Link": "",
+    "Personal achievement": "I have climbed the highest mountains in each country, from Mexico to Panama."
+  },
+  {
+    "Picture": "jose.jpg",
+    "Name": "Jose Aceituno",
+    "Job Title": "Quality Assurance Engineer",
+    "Responsibilities": "I make sure that the product delivered is of top quality, fulfill the client's needs and surpass expectations.",
+    "City": "Tegucigalpa",
+    "Professional achievement": "I've been able to gain the trust of my coworkers because of my good job and hard efforts, despite my time in the company hasn't been that long and lack of previous experience.",
+    "Link": "",
+    "Personal achievement": "I have been several times in my major's student council, once as president. Also I am an active member of IEEE Honduras branch and I like to do a lot of extracurricular activities to encourage new people to study Software Engineering."
+  },
+  {
+    "Picture": "eliseo.jpg",
+    "Name": "Eliseo Garcia",
+    "Job Title": "Ops",
+    "Responsibilities": "I support the devs to deployment tasks and I make sure the environments are stable to test and use the app.",
+    "City": "Choloma, Cortes",
+    "Professional achievement": "Sprint 0 on Aqua Gem within one week.",
+    "Link": "",
+    "Personal achievement": "Listen my father telling me he's so proud of me as son."
+  },
+  {
+    "Picture": "ambar.jpg",
+    "Name": "Ambar Suarez",
+    "Job Title": "QA Intern",
+    "Responsibilities": "I help to make sure that the product delivered to the client has the quality that Acklen Avenue provides.",
+    "City": "Tegucigalpa",
+    "Professional achievement": "Being one step closer to graduate.",
+    "Link": "",
+    "Personal achievement": "Get to work with such talented people and learn every day from them."
+  }
+]

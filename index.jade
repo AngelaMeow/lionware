@@ -1,0 +1,30 @@
+.container
+    section.map.world-map
+        img(src="img/america2.svg", alt="Ackleners around the world")
+        .map__content 
+            hgroup.tribe__title
+                h2 We are 
+                h1 Lionware Tribe
+            p.map__text Working together from different cities to deliver quality products.
+            a.button(href="#team") Meet our Team
+
+    section#team.team
+        h2.team__title Team Members
+        for person in public._data
+            .card
+                .card__img
+                    img(src='./img/' + person.Picture)
+                .card__content
+                    hgroup.card__header
+                        h3.card__title= person.Name
+                        h4.card__subtitle= person["Job Title"]
+                        h4.card__subtitle= person.City
+                
+                    .card__details
+                        h4.card__subtitle Responsibilities
+                        p.card__text= person.Responsibilities
+                        h4.card__subtitle Professional Achievement
+                        p.card__text= person["Professional achievement"]
+                        a.card__link(href= person.Link, target='_blank')= person.Link
+                        h4.card__subtitle Personal Achievement
+                        p.card__text= person["Personal achievement"]
