@@ -207,10 +207,12 @@ a.button:hover {
   flex-direction: column;
   margin: 20px auto;
   width: 100%;
+  overflow: hidden;
   @include media (desktop) {
     display: grid;
     grid-row-gap: 60px;
     margin: 60px auto;
+    overflow: visible;
   }
 }
 
