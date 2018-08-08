@@ -80,6 +80,12 @@ a.button:hover {
   text-align: center;
 }
 
+.no-underline:hover {
+  &:after {
+    background-color: transparent;
+  }
+}
+
 .button {
 	display: inline-block;
 	vertical-align: middle;
@@ -96,6 +102,7 @@ a.button:hover {
 	color: white;
   text-decoration: none;
   transition: all .4s ease-in-out;
+  border-radius: 1.5rem;
 	&:hover, &:focus {
 		background-color: $primary--alt;
 		color: white;
@@ -104,20 +111,43 @@ a.button:hover {
 	&:focus {
 		box-shadow: 0 0 0 2px $primary;
 		outline: none;
-	}
+  }
+  &:after {
+    display: none;
+  }
+}
+
+.button--filter {
+  outline: none;
+  width: 120px;
+  height: 40px;
+  background: #FFFFFF;
+  border-radius: 8px;
+  padding: 15px 14px;
+  text-transform: uppercase;
+  font-size: 11px;
+  margin: 6px 10px;
+  color: $primary;
+  box-shadow: 0 10px 30px 0 rgba(0,0,0,0.1);
+  font-weight: 800;
+  &.selected {
+    border-bottom: 2px solid $primary;
+  }
 }
 
 
-/* Header
+/* Header - Navigation
 =========================*/
 
-.header--main {
-  padding: 20px 40px;
+.header {
+  padding: 10px 40px;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  position: absolute;
+  width: 100%;
   @include media (desktop) {
-    padding: 20px 10vw;
+    padding: 10px 10vw 0;
   }
 }
 
@@ -125,6 +155,17 @@ a.button:hover {
   max-height: inherit;
   height: 16px;
   margin-top: 1rem;
+}
+
+.header__nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  li {
+    margin-right: 40px;
+    list-style: none;
+  }
 }
 
 
@@ -137,12 +178,12 @@ a.button:hover {
   display: block;
   padding: 0 40px;
   @include media (desktop) {
-    padding: 20px 8vw;
+    padding: 0 8vw;
   }
 }
 
-.container {
-  min-height: calc(65vh - 100px);
+.page-header {
+  background-color: #FAFAFA;
 }
 
 
@@ -152,18 +193,20 @@ a.button:hover {
 .world-map {
   height: 400px;
   position: relative;
-  background-color: #FAFAFA;
   overflow: hidden;
   text-align: left;
-  border: 20px solid #FAFAFA;
   img {
     display: none;
     width: 100%;
     max-width: 700px;
-    height: auto;
+    height: 60vh;
+  }
+  .lionware-logo {
+    display: block;
+    height: 60px;
   }
   @include media (desktop) {
-    height: 80vh;
+    height: 60vh;
     img {
       display: block;
     }
@@ -210,15 +253,33 @@ a.button:hover {
   overflow: hidden;
   @include media (desktop) {
     display: grid;
-    grid-row-gap: 60px;
-    margin: 60px auto;
+    grid-row-gap: 40px;
+    margin: 40px auto;
     overflow: visible;
   }
 }
 
+.team__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
 .team__title {
-  font-size: 45px;
+  font-size: 28px;
   color: $secondary;
+  margin: 10px 0;
+  text-align: center;
+  @include media (desktop) {
+    font-size: 45px;
+    text-align: center;
+  }
+}
+
+.team__structure {
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -230,13 +291,15 @@ a.button:hover {
   flex-direction: column;
   width: 100%;
   max-width: 460px;
-  margin: 20px auto;
-  border: 1px solid #DADADA;
+  margin: 10px auto;
+  border: 1px solid #FAFAFA;
+  border-radius: 5px;
+  box-shadow: 0 10px 30px 0 rgba(0,0,0,0.1);
   @include media (desktop) {
     max-width: 100%;
     flex-direction: row;
-    margin: 12px auto;
-    margin-right: -40px;
+    margin: 0px auto;
+    margin-right: -20px;
   }
 }
 
@@ -244,12 +307,13 @@ a.button:hover {
   @include media (desktop) {
     margin-right: 0;
     flex-direction: row-reverse;
-    margin-left: -40px;
+    margin-left: -20px;
+    justify-content: space-between;
   }
 }
 
 .card__img {
-  min-width: 100%;
+  width: 100%;
   flex-grow: 1;
   overflow: hidden;
   padding: 40px;
@@ -258,7 +322,11 @@ a.button:hover {
     width: 100%;
   }
   @include media (desktop) {
-    min-width: 440px;
+    max-width: 320px;
+    padding-right: 0;
+  }
+  @include media (large-desktop) {
+    max-width: 440px;
     padding-right: 0;
   }
 }
@@ -377,11 +445,11 @@ footer {
     content: '';
     display: block;
     position: absolute;
-    height: 2px;
+    height: 1px;
     width: 90vw;
     left: 5vw;
     top: 0;
-    background-color: $secondary;
+    background-color: #DADADA;
   }
 }
 
@@ -391,5 +459,8 @@ footer a:hover {
   }
 }
 
+.hidden {
+  display: none;
+}
 
 
