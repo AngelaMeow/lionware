@@ -2,13 +2,13 @@
     section#team.team
         header.team__header
             h2.team__title Team members
-            .team__filters
+            //.team__filters
                 p Filter team members by project:    
                 button(class="button button--filter all-team") All members
                 button(class="button button--filter aquagem-team") Aqua-gem 
                 button(class="button button--filter silverbird-team") Silverbird
         
-        .team__structure
+        //.team__structure
             img(class="silverbird hidden-on-all" src="img/silverbird-team.svg", alt="Silverbird structure")
 
         for person in public._data
