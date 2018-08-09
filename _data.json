@@ -60,18 +60,73 @@
     ]
   },
   {
-    "Picture": "cesarw.jpg",
-    "Name": "Cesar Welchez",
-    "Job Title": "QA Engineer",
-    "Responsibilities": "As QA we make sure to maintain a desire level of quality in the developer code, by checking every stage of process of creating quality software.",
-    "City": "Tegucigalpa, Honduras.",
-    "Professional achievement": "A great project we did for an ONG in Honduras to help out people finding help when they are having all sort of issues, specially family issues.",
+    "Picture": "yamil.jpg",
+    "Name": "Yamil Gonzales",
+    "Job Title": "Design Manager",
+    "Responsibilities": "I manage and develop a team of designers; setting clear goals, managing project loads and allocating designers accordingly, ensuring deadlines are met and setting up team members for overall success.",
+    "City": "Tegucigalpa",
+    "Professional achievement": "Created the first open-data portal in Honduras.",
     "Link": "",
-    "Personal achievement": "I love reforestation voluntary work, I've done quite a few (3-4) so far, and it's always a great experience.",
+    "Personal achievement": "I have climbed the highest mountains in each country, from Mexico to Panama.",
     "PersonalLink": "",
     "Project": [
-      "aqua-gem",
+      "aqua-gem"
+    ]
+  },
+  {
+    "Picture": "angela.jpg",
+    "Name": "Angela Velasquez",
+    "Job Title": "UX Designer",
+    "Responsibilities": "I find solutions to UX problems, create awesome designs for clients, and make sure that the user has a great final experience.",
+    "City": "Tegucigalpa",
+    "Professional achievement": "I've always been studying and practicing my HTML and CSS knowledge to improve every project's quality in which I've ever worked. This took me some time because when I started, I wasn't so good at writing code.",
+    "Link": "",
+    "Personal achievement": "Help to care and find a home to rescued cats. I also helped one baby squirrel and various birds to take them to the veterinary and reincorporate them to their habitat.",
+    "PersonalLink": "",
+    "Project": [
+      "aqua-gem"
+    ]
+  },
+  {
+    "Picture": "saulm.jpg",
+    "Name": "Saul Antonio Mayorquin",
+    "Job Title": "Lead Developer",
+    "Responsibilities": "I write code and mentor developers in the road to become Sr Devs.",
+    "City": "Comayagua",
+    "Professional achievement": "Been part of the team that built the tax recolection system of Honduras",
+    "Link": "",
+    "Personal achievement": "Be part of a collective of poets, \"Lienzo Breve\", with whom we publish a poetic atology \"Legion Barahona\"",
+    "PersonalLink": "",
+    "Project": [
+      "aqua-gem"
+    ]
+  },
+  {
+    "Picture": "frank.jpg",
+    "Name": "Frank Rodriguez",
+    "Job Title": "Lead Developer",
+    "Responsibilities": "I write maintainable and useful code that's easy to understand.",
+    "City": "Tegucigalpa, Honduras",
+    "Professional achievement": "Be part of an android/iOS development team for a Startup.",
+    "Link": "",
+    "Personal achievement": "Work as a volunteer to help people with few economic and educational resources.",
+    "PersonalLink": "",
+    "Project": [
       "silverbird"
+    ]
+  },
+  {
+    "Picture": "jacob.jpg",
+    "Name": "Jacob Ramirez",
+    "Job Title": "Developer",
+    "Responsibilities": "I write code using TDD methodology, Vuejs and Node.",
+    "City": "Houston, TX, USA",
+    "Professional achievement": "I worked with a team that delivered a well constructed API for one company with more than 1 million of users.",
+    "Link": "",
+    "Personal achievement": "I was part of a team of students that participated on a contest about principles and individual values. We won the first place and we appeared on a popular Honduras newspaper",
+    "PersonalLink": "",
+    "Project": [
+      "aqua-gem"
     ]
   },
   {
@@ -85,9 +140,7 @@
     "Personal achievement": "I was the first on all my family to have a university degree, and also a masters degree; I support them on every situation and needs. Also I'm proud of my daughter.",
     "PersonalLink": "",
     "Project": [
-      "aqua-gem",
-      "silverbird"
-    ]
+      "aqua-gem"    ]
   },
   {
     "Picture": "cesarb.jpg",
@@ -120,59 +173,18 @@
     ]
   },
   {
-    "Picture": "angela.jpg",
-    "Name": "Angela Velasquez",
-    "Job Title": "UX Designer",
-    "Responsibilities": "I find solutions to UX problems, create awesome designs for clients, and make sure that the user has a great final experience.",
-    "City": "Tegucigalpa",
-    "Professional achievement": "I've always been studying and practicing my HTML and CSS knowledge to improve every project's quality in which I've ever worked. This took me some time because when I started, I wasn't so good at writing code.",
+    "Picture": "cesarw.jpg",
+    "Name": "Cesar Welchez",
+    "Job Title": "QA Engineer",
+    "Responsibilities": "As QA we make sure to maintain a desire level of quality in the developer code, by checking every stage of process of creating quality software.",
+    "City": "Tegucigalpa, Honduras.",
+    "Professional achievement": "A great project we did for an ONG in Honduras to help out people finding help when they are having all sort of issues, specially family issues.",
     "Link": "",
-    "Personal achievement": "Help to care and find a home to rescued cats. I also helped one baby squirrel and various birds to take them to the veterinary and reincorporate them to their habitat.",
+    "Personal achievement": "I love reforestation voluntary work, I've done quite a few (3-4) so far, and it's always a great experience.",
     "PersonalLink": "",
     "Project": [
-      "aqua-gem"
-    ]
-  },
-  {
-    "Picture": "jacob.jpg",
-    "Name": "Jacob Ramirez",
-    "Job Title": "Developer",
-    "Responsibilities": "I write code using TDD methodology, Vuejs and Node.",
-    "City": "Houston, TX, USA",
-    "Professional achievement": "I worked with a team that delivered a well constructed API for one company with more than 1 million of users.",
-    "Link": "",
-    "Personal achievement": "I was part of a team of students that participated on a contest about principles and individual values. We won the first place and we appeared on a popular Honduras newspaper",
-    "PersonalLink": "",
-    "Project": [
-      "aqua-gem"
-    ]
-  },
-  {
-    "Picture": "saulm.jpg",
-    "Name": "Saul Antonio Mayorquin",
-    "Job Title": "Sr Developer",
-    "Responsibilities": "I write code and mentor developers in the road to become Sr Devs.",
-    "City": "Comayagua",
-    "Professional achievement": "Been part of the team that built the tax recolection system of Honduras",
-    "Link": "",
-    "Personal achievement": "Be part of a collective of poets, \"Lienzo Breve\", with whom we publish a poetic atology \"Legion Barahona\"",
-    "PersonalLink": "",
-    "Project": [
-      "aqua-gem"
-    ]
-  },
-  {
-    "Picture": "yamil.jpg",
-    "Name": "Yamil Gonzales",
-    "Job Title": "Design Manager",
-    "Responsibilities": "I manage and develop a team of designers; setting clear goals, managing project loads and allocating designers accordingly, ensuring deadlines are met and setting up team members for overall success.",
-    "City": "Tegucigalpa",
-    "Professional achievement": "Created the first open-data portal in Honduras.",
-    "Link": "",
-    "Personal achievement": "I have climbed the highest mountains in each country, from Mexico to Panama.",
-    "PersonalLink": "",
-    "Project": [
-      "aqua-gem"
+      "aqua-gem",
+      "silverbird"
     ]
   },
   {
@@ -201,20 +213,6 @@
     "PersonalLink": "",
     "Project": [
       "aqua-gem",
-      "silverbird"
-    ]
-  },
-  {
-    "Picture": "frank.jpg",
-    "Name": "Frank Rodriguez",
-    "Job Title": "Developer",
-    "Responsibilities": "",
-    "City": "Tegucigalpa",
-    "Professional achievement": "",
-    "Link": "",
-    "Personal achievement": "",
-    "PersonalLink": "",
-    "Project": [
       "silverbird"
     ]
   }
