@@ -11,7 +11,8 @@
     "PersonalLink": "",
     "Project": [
       "aqua-gem",
-      "silverbird"
+      "silverbird",
+      "wp"
     ]
   },
   {
@@ -26,7 +27,8 @@
     "PersonalLink": "https://www.721hn.com",
     "Project": [
       "aqua-gem",
-      "silverbird"
+      "silverbird",
+      "wp"
     ]
   },
   {
@@ -41,7 +43,8 @@
     "PersonalLink": "",
     "Project": [
       "aqua-gem",
-      "silverbird"
+      "silverbird",
+      "wp"
     ]
   },
   {
@@ -56,7 +59,8 @@
     "PersonalLink": "",
     "Project": [
       "aqua-gem",
-      "silverbird"
+      "silverbird",
+      "wp"
     ]
   },
   {
@@ -70,7 +74,8 @@
     "Personal achievement": "I have climbed the highest mountains in each country, from Mexico to Panama.",
     "PersonalLink": "",
     "Project": [
-      "aqua-gem"
+      "aqua-gem",
+      "wp"
     ]
   },
   {
@@ -84,7 +89,8 @@
     "Personal achievement": "Help to care and find a home to rescued cats. I also helped one baby squirrel and various birds to take them to the veterinary and reincorporate them to their habitat.",
     "PersonalLink": "",
     "Project": [
-      "aqua-gem"
+      "aqua-gem",
+      "wp"
     ]
   },
   {
@@ -130,19 +136,6 @@
     ]
   },
   {
-    "Picture": "ricardo.jpg",
-    "Name": "Ricardo Zelaya",
-    "Job Title": "Software developer",
-    "Responsibilities": "I write code, I read client requirements and with my logical and critical thinking fix any kind of situation or problem. At work and on my life everything has a solution.",
-    "City": "San pedro sula",
-    "Professional achievement": "I raised the IT department on a company on two years, I fixed and renewed all the IT infrastructure and I raised departments of software developer, database, technical support, networking and infrastructure from nothing.",
-    "Link": "",
-    "Personal achievement": "I was the first on all my family to have a university degree, and also a masters degree; I support them on every situation and needs. Also I'm proud of my daughter.",
-    "PersonalLink": "",
-    "Project": [
-      "aqua-gem"    ]
-  },
-  {
     "Picture": "cesarb.jpg",
     "Name": "Cesar Bonilla",
     "Job Title": "Developer",
@@ -153,8 +146,22 @@
     "Personal achievement": "I was able to overcome my fear to swim; now I'm taking swimming classes and feeling pretty confident about it.",
     "PersonalLink": "",
     "Project": [
-      "aqua-gem",
-      "silverbird"
+      "silverbird",
+      "wp"
+    ]
+  },
+  {
+    "Picture": "andres.jpg",
+    "Name": "Andrés Rodríguez",
+    "Job Title": "Developer Intern",
+    "Responsibilities": "I write code aimed to be readable and maintanable while trying to use idiomatic solutions specific to the languages that I'm working with.",
+    "City": "San Pedro Sula",
+    "Professional achievement": "In a project named PistoPOS made with Facebook's new programming language ReasonML, I learned how to be productive with this language in a few weeks and I was able to add features to the product in a short amount of time.",
+    "Link": "https://pisto.io",
+    "Personal achievement": "After six months of saving up money, I built my first PC which I'm currently using as my workstation. I had to do some research and it was an awesome learning experience for me.",
+    "PersonalLink": "",
+    "Project": [
+      "wp"
     ]
   },
   {
@@ -183,8 +190,8 @@
     "Personal achievement": "I love reforestation voluntary work, I've done quite a few (3-4) so far, and it's always a great experience.",
     "PersonalLink": "",
     "Project": [
-      "aqua-gem",
-      "silverbird"
+      "silverbird",
+      "wp"
     ]
   },
   {
@@ -198,7 +205,23 @@
     "Personal achievement": "I have been several times in my major's student council, once as president. Also I am an active member of IEEE Honduras branch and I like to do a lot of extracurricular activities to encourage new people to study Software Engineering.",
     "PersonalLink": "",
     "Project": [
-      "aqua-gem"
+      "aqua-gem",
+      "wp"
+    ]
+  },
+  {
+    "Picture": "oscar.jpg",
+    "Name": "Oscar Carranza",
+    "Job Title": "QA Engineer",
+    "Responsibilities": "I make sure the proyects are error-free",
+    "City": "Tegucigalpa",
+    "Professional achievement": "Trained students for web programming basics.",
+    "Link": "",
+    "Personal achievement": "Teaching english basics at public schools.",
+    "PersonalLink": "",
+    "Project": [
+      "aqua-gem",
+      "silverbird"
     ]
   },
   {
@@ -213,7 +236,8 @@
     "PersonalLink": "",
     "Project": [
       "aqua-gem",
-      "silverbird"
+      "silverbird",
+      "wp"
     ]
   }
 ]
