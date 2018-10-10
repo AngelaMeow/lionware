@@ -12,7 +12,7 @@
     "Project": [
       "aqua-gem",
       "silverbird",
-      "wp"
+      "forklift"
     ]
   },
   {
@@ -28,7 +28,7 @@
     "Project": [
       "aqua-gem",
       "silverbird",
-      "wp"
+      "forklift"
     ]
   },
   {
@@ -44,7 +44,7 @@
     "Project": [
       "aqua-gem",
       "silverbird",
-      "wp"
+      "forklift"
     ]
   },
   {
@@ -60,7 +60,7 @@
     "Project": [
       "aqua-gem",
       "silverbird",
-      "wp"
+      "forklift"
     ]
   },
   {
@@ -75,7 +75,7 @@
     "PersonalLink": "",
     "Project": [
       "aqua-gem",
-      "wp"
+      "forklift"
     ]
   },
   {
@@ -90,7 +90,7 @@
     "PersonalLink": "",
     "Project": [
       "aqua-gem",
-      "wp"
+      "forklift"
     ]
   },
   {
@@ -147,7 +147,7 @@
     "PersonalLink": "",
     "Project": [
       "silverbird",
-      "wp"
+      "forklift"
     ]
   },
   {
@@ -161,22 +161,21 @@
     "Personal achievement": "After six months of saving up money, I built my first PC which I'm currently using as my workstation. I had to do some research and it was an awesome learning experience for me.",
     "PersonalLink": "",
     "Project": [
-      "wp"
+      "silverbird"
     ]
   },
   {
-    "Picture": "ricky.jpg",
-    "Name": "Ricardo Casco",
-    "Job Title": "QA Engineer",
-    "Responsibilities": "Testing features to be sure the client receives the best quality of the product",
-    "City": "Tegucigalpa",
-    "Professional achievement": "Automation testing, solved oriented problem, good communication, team work, work harder",
+    "Picture": "alejandro.jpg",
+    "Name": "Alejandro Ferrera",
+    "Job Title": "Developer",
+    "Responsibilities": "I provide solutions to technical problems by writing elegant and maintainable code adhering to the standards and principles defined by the language I'm working with.",
+    "City": "San Pedro Sula",
+    "Professional achievement": "In my previous job, I rewrite a software that ended up improving the user experience along with the workflow of the department in charge of using it by saving them money and time.",
     "Link": "",
-    "Personal achievement": "I am a volunteer on a NGO for more than 8 years",
+    "Personal achievement": "Me and my family have been able to open our house to six stray dogs, provide help to various groups of animal protection in Facebook, and provide food, water, and a temporal shelter for any stray animal passing by our home.",
     "PersonalLink": "",
     "Project": [
-      "aqua-gem",
-      "silverbird"
+      "forklift"
     ]
   },
   {
@@ -191,7 +190,7 @@
     "PersonalLink": "",
     "Project": [
       "silverbird",
-      "wp"
+      "forklift"
     ]
   },
   {
@@ -206,7 +205,7 @@
     "PersonalLink": "",
     "Project": [
       "aqua-gem",
-      "wp"
+      "forklift"
     ]
   },
   {
@@ -237,7 +236,7 @@
     "Project": [
       "aqua-gem",
       "silverbird",
-      "wp"
+      "forklift"
     ]
   }
 ]
