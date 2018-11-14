@@ -12,7 +12,8 @@
     "Project": [
       "aqua-gem",
       "silverbird",
-      "forklift"
+      "forklift",
+      "wallstreet"
     ]
   },
   {
@@ -28,7 +29,8 @@
     "Project": [
       "aqua-gem",
       "silverbird",
-      "forklift"
+      "forklift",
+      "wallstreet"
     ]
   },
   {
@@ -44,7 +46,8 @@
     "Project": [
       "aqua-gem",
       "silverbird",
-      "forklift"
+      "forklift",
+      "wallstreet"
     ]
   },
   {
@@ -90,7 +93,8 @@
     "PersonalLink": "",
     "Project": [
       "aqua-gem",
-      "forklift"
+      "forklift",
+      "wallstreet"
     ]
   },
   {
@@ -104,13 +108,13 @@
     "Personal achievement": "Be part of a collective of poets, \"Lienzo Breve\", with whom we publish a poetic atology \"Legion Barahona\"",
     "PersonalLink": "",
     "Project": [
-      "aqua-gem"
+      "wallstreet"
     ]
   },
   {
     "Picture": "frank.jpg",
     "Name": "Frank Rodriguez",
-    "Job Title": "Lead Developer",
+    "Job Title": "Developer",
     "Responsibilities": "I write maintainable and useful code that's easy to understand.",
     "City": "Tegucigalpa, Honduras",
     "Professional achievement": "Be part of an android/iOS development team for a Startup.",
@@ -118,7 +122,8 @@
     "Personal achievement": "Work as a volunteer to help people with few economic and educational resources.",
     "PersonalLink": "",
     "Project": [
-      "silverbird"
+      "silverbird",
+      "wallstreet"
     ]
   },
   {
@@ -151,17 +156,17 @@
     ]
   },
   {
-    "Picture": "andres.jpg",
-    "Name": "Andrés Rodríguez",
-    "Job Title": "Developer Intern",
-    "Responsibilities": "I write code aimed to be readable and maintanable while trying to use idiomatic solutions specific to the languages that I'm working with.",
+    "Picture": "ricardo.jpg",
+    "Name": "Ricardo Zelaya",
+    "Job Title": "Developer",
+    "Responsibilities": "I write code, I read client requirements and with my logical and critical thinking fix any kind of situation or problem. At work and on my live everithing has a solution.",
     "City": "San Pedro Sula",
-    "Professional achievement": "In a project named PistoPOS made with Facebook's new programming language ReasonML, I learned how to be productive with this language in a few weeks and I was able to add features to the product in a short amount of time.",
-    "Link": "https://pisto.io",
-    "Personal achievement": "After six months of saving up money, I built my first PC which I'm currently using as my workstation. I had to do some research and it was an awesome learning experience for me.",
+    "Professional achievement": "I raised the IT department on a company on two years, I fixed and renewed all the IT infrastructure and I raised the departments of software development, database, tehnical support, networking and infrastructure from nothing.",
+    "Link": "",
+    "Personal achievement": "I was the first on all my family having a university degree, and also a master degree, I support them on every situation and needs. I'm also very proud of my daugther.",
     "PersonalLink": "",
     "Project": [
-      "silverbird"
+      "aqua-gem"
     ]
   },
   {
@@ -179,6 +184,20 @@
     ]
   },
   {
+    "Picture": "walther.jpg",
+    "Name": "Walther Carrasco",
+    "Job Title": "Developer",
+    "Responsibilities": "I produce clean, efficient and maintainable code.",
+    "City": "Tegucigalpa, Honduras",
+    "Professional achievement": "I am a member and developer of a startup that won second place award in the Honduras Digital Challenge.",
+    "Link": "",
+    "Personal achievement": "I was part of the staff of a event where we teach other people all the good parts and the hard parts of making a startup.",
+    "PersonalLink": "",
+    "Project": [
+      "wallstreet"
+    ]
+  },
+  {
     "Picture": "cesarw.jpg",
     "Name": "Cesar Welchez",
     "Job Title": "QA Engineer",
@@ -190,7 +209,8 @@
     "PersonalLink": "",
     "Project": [
       "silverbird",
-      "forklift"
+      "forklift",
+      "wallstreet"
     ]
   },
   {
@@ -220,7 +240,8 @@
     "PersonalLink": "",
     "Project": [
       "aqua-gem",
-      "silverbird"
+      "silverbird",
+      "wallstreet"
     ]
   },
   {
@@ -236,7 +257,8 @@
     "Project": [
       "aqua-gem",
       "silverbird",
-      "forklift"
+      "forklift",
+      "wallstreet"
     ]
   }
 ]
