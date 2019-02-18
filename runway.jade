@@ -1,0 +1,28 @@
+.container
+    section#team.team
+        header.team__header
+            h2.team__title Runway Team
+            p Meet the amazing people from Acklen Avenue working with Wearwell´s project
+        
+        .team__structure
+            img(class="runway" src="img/complete-team-runway.svg", alt="Team structure")
+
+        for person in public._data
+            article.card(class= person.Project)
+                .card__img
+                    img(src='./img/' + person.Picture)
+                .card__content
+                    hgroup.card__header
+                        h3.card__title= person.Name
+                        h4.card__subtitle= person["Job Title"]
+                        h4.card__subtitle= person.City
+                
+                    .card__details
+                        h4.card__subtitle Responsibilities
+                        p.card__text= person.Responsibilities
+                        h4.card__subtitle Professional Achievement
+                        p.card__text= person["Professional achievement"]
+                        a.card__link(href= person.Link, target='_blank')= person.Link
+                        h4.card__subtitle Personal Achievement
+                        p.card__text= person["Personal achievement"]
+                        a.card__link(href= person.PersonalLink, target='_blank')= person.PersonalLink

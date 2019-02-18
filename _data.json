@@ -13,7 +13,8 @@
       "aqua-gem",
       "silverbird",
       "forklift",
-      "wallstreet"
+      "wallstreet",
+      "runway"
     ]
   },
   {
@@ -30,7 +31,8 @@
       "aqua-gem",
       "silverbird",
       "forklift",
-      "wallstreet"
+      "wallstreet",
+      "runway"
     ]
   },
   {
@@ -47,7 +49,8 @@
       "aqua-gem",
       "silverbird",
       "forklift",
-      "wallstreet"
+      "wallstreet",
+      "runway"
     ]
   },
   {
@@ -67,24 +70,9 @@
     ]
   },
   {
-    "Picture": "yamil.jpg",
-    "Name": "Yamil Gonzales",
-    "Job Title": "Design Manager",
-    "Responsibilities": "I manage and develop a team of designers; setting clear goals, managing project loads and allocating designers accordingly, ensuring deadlines are met and setting up team members for overall success.",
-    "City": "Tegucigalpa",
-    "Professional achievement": "Created the first open-data portal in Honduras.",
-    "Link": "",
-    "Personal achievement": "I have climbed the highest mountains in each country, from Mexico to Panama.",
-    "PersonalLink": "",
-    "Project": [
-      "aqua-gem",
-      "forklift"
-    ]
-  },
-  {
     "Picture": "angela.jpg",
     "Name": "Angela Velasquez",
-    "Job Title": "UX Designer",
+    "Job Title": "Designer",
     "Responsibilities": "I find solutions to UX problems, create awesome designs for clients, and make sure that the user has a great final experience.",
     "City": "Tegucigalpa",
     "Professional achievement": "I've always been studying and practicing my HTML and CSS knowledge to improve every project's quality in which I've ever worked. This took me some time because when I started, I wasn't so good at writing code.",
@@ -94,7 +82,8 @@
     "Project": [
       "aqua-gem",
       "forklift",
-      "wallstreet"
+      "wallstreet",
+      "runway"
     ]
   },
   {
@@ -108,7 +97,8 @@
     "Personal achievement": "Be part of a collective of poets, \"Lienzo Breve\", with whom we publish a poetic atology \"Legion Barahona\"",
     "PersonalLink": "",
     "Project": [
-      "wallstreet"
+      "wallstreet",
+      "runway"
     ]
   },
   {
@@ -152,7 +142,8 @@
     "PersonalLink": "",
     "Project": [
       "silverbird",
-      "forklift"
+      "forklift",
+      "runway"
     ]
   },
   {
@@ -180,7 +171,8 @@
     "Personal achievement": "Me and my family have been able to open our house to six stray dogs, provide help to various groups of animal protection in Facebook, and provide food, water, and a temporal shelter for any stray animal passing by our home.",
     "PersonalLink": "",
     "Project": [
-      "forklift"
+      "forklift",
+      "runway"
     ]
   },
   {
@@ -210,7 +202,8 @@
     "Project": [
       "silverbird",
       "forklift",
-      "wallstreet"
+      "wallstreet",
+      "runway"
     ]
   },
   {
@@ -241,7 +234,8 @@
     "Project": [
       "aqua-gem",
       "silverbird",
-      "wallstreet"
+      "wallstreet",
+      "runway"
     ]
   },
   {
@@ -258,7 +252,8 @@
       "aqua-gem",
       "silverbird",
       "forklift",
-      "wallstreet"
+      "wallstreet",
+      "runway"
     ]
   }
 ]
