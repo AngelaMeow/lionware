@@ -286,6 +286,148 @@ a.button:hover {
 /* Cards
 =========================*/
 
+.team-graphic {
+  max-width: 800px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  height: 200px;
+  margin: 120px auto 200px;
+  position: relative;
+}
+
+.team__member {
+  display: inline-flex;
+  flex-direction: column-reverse;
+  flex: 1 4 20%;
+  position: relative;
+  text-align: center;
+  img {
+    transition: all .2s ease-in-out;
+  }
+  a {
+    display: inline-flex;
+    margin: 8px auto;
+    width: fit-content;
+    text-decoration: none;
+    color: $primary;
+    text-decoration: none;
+    transition: all .25s ease-in-out;
+    &:hover {
+      color: $primary--alt;
+    }
+  }
+  a:hover + img {
+    transform: scale(1.15)
+  }
+}
+
+.team__member--em {
+  a {
+    max-width: 100px;
+  }
+}
+
+.team__member--po,
+.team__member--op {
+  top: -100px;
+}
+
+.team__member--des {
+  top: -150px;
+}
+
+.team__member--sm,
+.team__member--dev {
+  bottom: 0;
+}
+
+.team__member--tl {
+  bottom: -50px;
+}
+
+.team__member--sm {
+  margin-left: 20%;
+}
+
+.team__member--dev {
+  margin-right: 20%;
+}
+
+.team__member--cpo {
+  position: absolute;
+  top: 20px;
+}
+
+.team-graphic__icon {
+  position: absolute;
+  margin: auto;
+  top: 80px;
+  width: 20%;
+  display: inline-flex;
+  justify-content: center;
+}
+
+.icon-heart {
+  margin-left:-20%;
+}
+
+.icon-rocket {
+  margin-left: 20%;
+}
+
+.team-graphic__icon{
+  &:after {
+    display: block;
+    content: '';
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    height: 0;
+    width: 20%;
+    border-bottom: 2px dotted $text;
+  }
+  &:before {
+    display: block;
+    content: '';
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 0;
+    width: 20%;
+    border-bottom: 2px dotted $text;
+  }
+}
+
+.team__member--po:before,
+.team__member--op:before,
+.team__member--sm:before,
+.team__member--dev:before {
+  display: block;
+  content: '';
+  position: absolute;
+  margin: auto;
+  bottom: -25px;
+  left: 0;
+  right: 0;
+  height: 15%;
+  width: 0;
+  border-left: 2px dotted $text;
+}
+
+.team__member--sm:before,
+.team__member--dev:before {
+  bottom: auto;
+  top: -25px;
+}
+
+/* Cards
+=========================*/
+
 .card {
   display: flex;
   flex-direction: column;

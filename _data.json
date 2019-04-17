@@ -1,5 +1,6 @@
 [
   {
+    "Role": "team-em",
     "Picture": "johanne.jpg",
     "Name": "Johanne Greenwood",
     "Job Title": "Engagement Manager",
@@ -14,10 +15,12 @@
       "silverbird",
       "forklift",
       "wallstreet",
-      "runway"
+      "runway",
+      "new"
     ]
   },
   {
+    "Role": "team-po",
     "Picture": "ronald.jpg",
     "Name": "Ronald Doblado",
     "Job Title": "Product Owner",
@@ -32,10 +35,12 @@
       "silverbird",
       "forklift",
       "wallstreet",
-      "runway"
+      "runway",
+      "new"
     ]
   },
   {
+    "Role": "team-sm",
     "Picture": "saule.jpg",
     "Name": "Saul Euceda",
     "Job Title": "Scrum Master",
@@ -50,7 +55,8 @@
       "silverbird",
       "forklift",
       "wallstreet",
-      "runway"
+      "runway",
+      "new"
     ]
   },
   {
@@ -70,6 +76,7 @@
     ]
   },
   {
+    "Role": "team-des",
     "Picture": "angela.jpg",
     "Name": "Angela Velasquez",
     "Job Title": "Designer",
@@ -83,7 +90,8 @@
       "aqua-gem",
       "forklift",
       "wallstreet",
-      "runway"
+      "runway",
+      "new"
     ]
   },
   {
@@ -99,6 +107,21 @@
     "Project": [
       "wallstreet",
       "runway"
+    ]
+  },
+  {
+    "Role": "team-tl",
+    "Picture": "ferenck.jpg",
+    "Name": "Ferenck Vargas",
+    "Job Title": "Tribal Tech Lead",
+    "Responsibilities": "Help developers to succeed by implementing and maintaining standards and tools, supporting architectural decisions and coaching them to achieve their full potential.",
+    "City": "San Pedro Sula",
+    "Professional achievement": "Successfully lead a project to implement dynamic reports setup/generation/execution for the proprietary applications framework of a multinational fruit producer, serving +-2000 users.",
+    "Link": "",
+    "Personal achievement": "Participating in the VI Latin America Mission Encounter, a two weeks missionary effort held by the Vincentian Marian Youth, a catholic youth association I was member, in one of the poorest areas in Santo Domingo, Dominican Republic.",
+    "PersonalLink": "",
+    "Project": [
+      "new"
     ]
   },
   {
@@ -131,6 +154,7 @@
     ]
   },
   {
+    "Role": "team-dev",
     "Picture": "cesarb.jpg",
     "Name": "Cesar Bonilla",
     "Job Title": "Developer",
@@ -143,7 +167,8 @@
     "Project": [
       "silverbird",
       "forklift",
-      "runway"
+      "runway",
+      "new"
     ]
   },
   {
@@ -190,6 +215,21 @@
     ]
   },
   {
+    "Picture": "jimmy.jpg",
+    "Name": "Jimmy Ramos",
+    "Job Title": "Developer",
+    "Responsibilities": "I write code and at the same time I enjoy it, always making sure that it works and it suits our client's expectations and makes them happy.",
+    "City": "San Pedro Sula",
+    "Professional achievement": "Working on a project for a multinational company subsidiary in Honduras, working with teams from 4 different countries feels amazing and challenging at the same time.",
+    "Link": "",
+    "Personal achievement": "Being selected for UGRAD scholarship and founding Guala Honduras, a non profit with my friends  after coming back home.",
+    "PersonalLink": "",
+    "Project": [
+      "new"
+    ]
+  },
+  {
+    "Role": "team-qa",
     "Picture": "cesarw.jpg",
     "Name": "Cesar Welchez",
     "Job Title": "QA Engineer",
@@ -203,7 +243,8 @@
       "silverbird",
       "forklift",
       "wallstreet",
-      "runway"
+      "runway",
+      "new"
     ]
   },
   {
@@ -218,7 +259,8 @@
     "PersonalLink": "",
     "Project": [
       "aqua-gem",
-      "forklift"
+      "forklift",
+      "new"
     ]
   },
   {
@@ -239,6 +281,7 @@
     ]
   },
   {
+    "Role": "team-ops",
     "Picture": "eliseo.jpg",
     "Name": "Eliseo Garcia",
     "Job Title": "Ops",
@@ -253,7 +296,8 @@
       "silverbird",
       "forklift",
       "wallstreet",
-      "runway"
+      "runway",
+      "new"
     ]
   }
 ]
