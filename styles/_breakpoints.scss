@@ -1,5 +1,9 @@
 @mixin media ($breakpoint) {  
   
+  @if $breakpoint == ipad-portrait {  
+    @media only screen and (min-width: 768px) { @content; }  
+  } 
+
   @if $breakpoint == ipad {  
     @media only screen and (min-width: 1024px) { @content; }  
   } 
@@ -13,6 +17,7 @@
   } 
 
   @else if $breakpoint == mobile {  
-    @media only screen and (max-width: 1023px) { @content; }  
+    @media only screen and (max-width: 767px) { @content; }  
   }
+
 } 

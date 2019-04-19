@@ -1,8 +1,7 @@
 .container
     section#team.team
         header.team__header
-            h2.team__title Runway Team
-            p Meet the amazing people from Acklen Avenue working with Wearwell´s project
+            h2.team__title The team
         
         .team__structure
             .team-graphic.team--complete(aria-description-by)
@@ -23,7 +22,7 @@
                     img(src="img/icons/ops.svg")
                     
                 .team__member.team__member--qa
-                    a(href="#team-qa") QA
+                    a(href="#team-qa") Testers
                     img(src="img/icons/qa.svg")
                     
                 .team__member.team__member--sm
@@ -61,9 +60,11 @@
                     .card__details
                         h4.card__subtitle Responsibilities
                         p.card__text= person.Responsibilities
-                        h4.card__subtitle Professional Achievement
+                        h4.card__subtitle Professional achievement
                         p.card__text= person["Professional achievement"]
                         a.card__link(href= person.Link, target='_blank')= person.Link
-                        h4.card__subtitle Personal Achievement
+                        h4.card__subtitle Personal achievement
                         p.card__text= person["Personal achievement"]
                         a.card__link(href= person.PersonalLink, target='_blank')= person.PersonalLink
+    a(onclick="topFunction()" id="myBtn" class="button--top" title="Back to top")
+        span Return to top

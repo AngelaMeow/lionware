@@ -172,13 +172,15 @@ a.button:hover {
 /* Containers
 =========================*/
 
-.container, footer {
+.container {
   box-sizing: border-box;
   height:auto;
   display: block;
   padding: 0 40px;
   @include media (desktop) {
-    padding: 0 8vw;
+    padding: 0 80px;
+    max-width: 1400px;
+    margin: auto;
   }
 }
 
@@ -200,6 +202,7 @@ a.button:hover {
     width: 100%;
     max-width: 700px;
     height: 60vh;
+    animation: fadeIn 1s ease-in-out;
   }
   .lionware-logo {
     display: block;
@@ -242,7 +245,7 @@ a.button:hover {
 }
 
 
-/* grid
+/* Grid
 =========================*/
 
 .team {
@@ -283,17 +286,23 @@ a.button:hover {
 }
 
 
-/* Cards
+/* Team Graphic
 =========================*/
 
 .team-graphic {
   max-width: 800px;
-  display: flex;
+  display: none;
   flex-flow: row wrap;
   justify-content: center;
   height: 200px;
-  margin: 120px auto 200px;
+  margin: 150px auto 180px;
   position: relative;
+  @include media (ipad-portrait) {
+    display: flex;
+  }
+  @include media (desktop) {
+    margin-top: 120px;
+  }
 }
 
 .team__member {
@@ -307,14 +316,28 @@ a.button:hover {
   }
   a {
     display: inline-flex;
+    flex-direction: column;
     margin: 8px auto;
     width: fit-content;
     text-decoration: none;
     color: $primary;
     text-decoration: none;
     transition: all .25s ease-in-out;
+    top: -15px;
+    &::before {
+      display: block;
+      content: 'Meet our';
+      color: $secondary;
+      font-size: 0.8em;
+      opacity: 0;
+      transition: all .2s ease-in-out;
+    }
     &:hover {
       color: $primary--alt;
+      top: 0;
+    }
+    &:hover::before {
+      opacity: 1;
     }
   }
   a:hover + img {
@@ -330,7 +353,7 @@ a.button:hover {
 
 .team__member--po,
 .team__member--op {
-  top: -100px;
+  top: -130px;
 }
 
 .team__member--des {
@@ -422,7 +445,7 @@ a.button:hover {
 .team__member--sm:before,
 .team__member--dev:before {
   bottom: auto;
-  top: -25px;
+  top: -30px;
 }
 
 /* Cards
@@ -489,14 +512,27 @@ a.button:hover {
   .card__title, .card__subtitle {
     font-weight: bold;
     position: relative;
+    margin: 10px 0;
     &:before {
       display: block;
       position: absolute;
       top: -20px;
-      font-size: 14 px;
+      font-size: 14px;
       color: $secondary--alt; 
       font-weight: lighter;
     }
+  }
+  .card__title {
+    font-size: 22px;
+  }
+  .card__subtitle {
+    color: $secondary--alt;
+    font-weight: normal;
+    margin: 0;
+    line-height: 1.75em;
+  }
+  .card__subtitle:first-of-type {
+    font-weight: bold;
   }
   .card__title:before {
     content: '';
@@ -507,10 +543,12 @@ a.button:hover {
 }
 
 .card__header {
-  @include media (desktop) {
+  @include media (large-desktop) {
   display: flex;
   flex-direction: row;
   align-items: baseline;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
   .card__title, .card__subtitle {
     font-weight: bold;
     position: relative;
@@ -522,6 +560,9 @@ a.button:hover {
     }
   }
   .card__subtitle {
+    color: $secondary;
+    font-weight: bold;
+    margin: 10px;
     &:before {
       content: "Is our";
     }
@@ -537,9 +578,6 @@ a.button:hover {
   }
 }
 
-.card__title {
-  font-size: 22px;
-}
 
 .card__details {
   word-break: break-word;
@@ -557,8 +595,6 @@ a.button:hover {
   text-decoration: none;
   font-size: 18px;
 }
-
-
 
 
 /* Footer
@@ -601,8 +637,82 @@ footer a:hover {
   }
 }
 
+
+/* Helpers
+=========================*/
+
 .hidden {
   display: none;
 }
 
+.button--top {
+  display: none;
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  z-index: 99;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: $primary--alt;
+  overflow: hidden;
+  transition: all .25s ease-in-out;
+  span {
+    display: block;
+    text-indent: -1000px;
+    &::before, &::after {
+      display: block;
+      position: absolute;
+      content: '';
+      height: 20px;
+      width: 2px;
+      background-color: white;
+      margin: auto;
+      top: 0;
+      left: 13px;
+      right: 0;
+      bottom: 0;
+      transform: rotate(-45deg);
+      transition: all .1s ease-out;
+    }
+    &::before {
+      left: -13px;
+      transform: rotate(45deg);
+    }
+  }
+  &:hover {
+    background-color: $primary;
+    box-shadow: 0 0 10px rgba(0,0,0,0.25);
+    span::before, span::after {
+      top: -4px;
+    }
+  }
+}
+
+html.sr .load-hidden {
+  visibility: hidden;
+}
+
+
+/* Animations
+=========================*/
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+
+/* Browser hacks
+=========================*/
+
+@media screen and (min--moz-device-pixel-ratio:0) {
+	.icon-heart {
+    margin-left: -40%;
+  }
+
+  .icon-rocket {
+    margin-left: 40%;
+  }
+}
 
