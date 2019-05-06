@@ -294,6 +294,21 @@
     ]
   },
   {
+    "Picture": "kerlyn.jpg",
+    "Name": "Kerlyn Bustillo",
+    "Job Title": "QA Engineer",
+    "Responsibilities": "I make sure that the projects have excellent quality.",
+    "City": "Tegucigalpa, Honduras",
+    "Professional achievement": "Work on a very complex project like Fortress and get a very high client confidence.",
+    "Link": "",
+    "Personal achievement": "Belong to a community that supports the growth of couples and marriages.",
+    "PersonalLink": "",
+    "Project": [
+      "lionware",
+      "gigawatt"
+    ]
+  },
+  {
     "Role": "team-ops",
     "Picture": "eliseo.jpg",
     "Name": "Eliseo Garcia",
