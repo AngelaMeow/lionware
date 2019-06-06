@@ -17,7 +17,8 @@
       "forklift",
       "wallstreet",
       "runway",
-      "gigawatt"
+      "gigawatt",
+      "gutenberg"
     ]
   },
   {
@@ -38,7 +39,8 @@
       "forklift",
       "wallstreet",
       "runway",
-      "gigawatt"
+      "gigawatt",
+      "gutenberg"
     ]
   },
   {
@@ -95,7 +97,23 @@
       "forklift",
       "wallstreet",
       "runway",
-      "gigawatt"
+      "gigawatt",
+      "gutenberg"
+    ]
+  },
+  {
+    "Role": "team-des",
+    "Picture": "wilmer.jpg",
+    "Name": "Wilmer Murillo",
+    "Job Title": "Designer",
+    "Responsibilities": "I convert business needs into interface designs and user experience flows, then I help developers to integrate their code into those designs.",
+    "City": "Tegucigalpa, Honduras",
+    "Professional achievement": "Some of my design work has been exposed in several international venues.",
+    "Link": "",
+    "Personal achievement": "My electronic ambient music project called Almanacs, with which I have made several releases.",
+    "PersonalLink": "https://almanacsmusic.com/",
+    "Project": [
+      "gutenberg"
     ]
   },
   {
@@ -126,7 +144,8 @@
     "PersonalLink": "",
     "Project": [
       "lionware",
-      "gigawatt"
+      "gigawatt",
+      "gutenberg"
     ]
   },
   {
@@ -156,7 +175,8 @@
     "PersonalLink": "",
     "Project": [
       "lionware",
-      "aqua-gem"
+      "aqua-gem",
+      "gutenberg"
     ]
   },
   {
@@ -190,7 +210,8 @@
     "PersonalLink": "",
     "Project": [
       "lionware",
-      "aqua-gem"
+      "aqua-gem",
+      "gutenberg"
     ]
   },
   {
@@ -276,6 +297,7 @@
     ]
   },
   {
+    "Role": "team-qa",
     "Picture": "oscar.jpg",
     "Name": "Oscar Carranza",
     "Job Title": "QA Engineer",
@@ -290,10 +312,12 @@
       "aqua-gem",
       "silverbird",
       "wallstreet",
-      "runway"
+      "runway",
+      "gutenberg"
     ]
   },
   {
+    "Role": "team-qa",
     "Picture": "kerlyn.jpg",
     "Name": "Kerlyn Bustillo",
     "Job Title": "QA Engineer",
@@ -305,7 +329,8 @@
     "PersonalLink": "",
     "Project": [
       "lionware",
-      "gigawatt"
+      "gigawatt",
+      "gutenberg"
     ]
   },
   {
@@ -326,7 +351,30 @@
       "forklift",
       "wallstreet",
       "runway",
-      "gigawatt"
+      "gigawatt",
+      "gutenberg"
+    ]
+  },
+  {
+    "Role": "team-ops",
+    "Picture": "hector.jpg",
+    "Name": "Hector Rosales",
+    "Job Title": "Ops",
+    "Responsibilities": "I make sure that everything is up and running.",
+    "City": "Choloma, Honduras",
+    "Professional achievement": "Implemented service discovery with canary deployments in Kubernetes.",
+    "Link": "",
+    "Personal achievement": "I stopped eating meats.",
+    "PersonalLink": "",
+    "Project": [
+      "lionware",
+      "aqua-gem",
+      "silverbird",
+      "forklift",
+      "wallstreet",
+      "runway",
+      "gigawatt",
+      "gutenberg"
     ]
   }
 ]

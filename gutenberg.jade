@@ -1,0 +1,70 @@
+.container
+    section#team.team
+        header.team__header
+            h2.team__title The team
+        
+        .team__structure
+            .team-graphic.team--complete(aria-description-by)
+                .team__member.team__member--em
+                    a(href="#team-em") Engagement Manager
+                    img(src="img/icons/em.svg")
+                    
+                .team__member.team__member--po
+                    a(href="#team-po") Product Owner
+                    img(src="img/icons/po.svg")
+                    
+                .team__member.team__member--des
+                    a(href="#team-des") Designers
+                    img(src="img/icons/designer.svg")
+                    
+                .team__member.team__member--op
+                    a(href="#team-ops") Ops
+                    img(src="img/icons/ops.svg")
+                    
+                .team__member.team__member--qa
+                    a(href="#team-qa") Testers
+                    img(src="img/icons/qa.svg")
+                    
+                .team__member.team__member--sm
+                    a(href="#team-sm") Scrum Master
+                    img(src="img/icons/sm.svg")
+                    
+                .team__member.team__member--tl
+                    a(href="#team-tl") Tech Lead
+                    img(src="img/icons/techlead.svg")
+                    
+                .team__member.team__member--dev
+                    a(href="#team-dev") Developers
+                    img(src="img/icons/developer.svg")
+                    
+                .team__member.team__member--cpo
+                    span Client PO
+                    img(src="img/icons/client-po.svg")
+                    
+                .team-graphic__icon.icon-heart
+                    img(src="img/icons/icon-aa-heart.svg")
+                .team-graphic__icon.icon-rocket
+                    img(src="img/icons/icon-rocket.svg")
+
+
+        for person in public._data
+            article.card(id= person.Role, class= person.Project)
+                .card__img
+                    img(src='./img/' + person.Picture)
+                .card__content
+                    hgroup.card__header
+                        h3.card__title= person.Name
+                        h4.card__subtitle= person["Job Title"]
+                        h4.card__subtitle= person.City
+                
+                    .card__details
+                        h4.card__subtitle Responsibilities
+                        p.card__text= person.Responsibilities
+                        h4.card__subtitle Professional achievement
+                        p.card__text= person["Professional achievement"]
+                        a.card__link(href= person.Link, target='_blank')= person.Link
+                        h4.card__subtitle Personal achievement
+                        p.card__text= person["Personal achievement"]
+                        a.card__link(href= person.PersonalLink, target='_blank')= person.PersonalLink
+    a(onclick="topFunction()" id="myBtn" class="button--top" title="Back to top")
+        span Return to top
